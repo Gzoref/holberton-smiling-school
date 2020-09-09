@@ -21,6 +21,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
+
   width: 100%;
 }
 
@@ -61,6 +62,6 @@ button.btn {
   color: #c271ff;
 }
 
-img.circle-thumb{
-	width: 9rem;
+img.circle-thumb {
+  width: 9rem;
 }
