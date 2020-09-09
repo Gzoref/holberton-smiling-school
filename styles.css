@@ -69,5 +69,21 @@ img.circle-thumb {
 
 .carousel{
 	background-color: var(--purple-smile);
+	padding-left: 4rem;
 }
 
+
+.carousel-control-prev{
+	background-image: url("./images/arrow_white_left.png");
+	background-repeat: no-repeat;
+	background-size: 2rem;
+	margin: 2rem 1rem;
+}
+
+.carousel-control-next{
+	background-image: url("./images/arrow_white_right.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 2rem;
+	margin: 2rem 1rem;
+}
