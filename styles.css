@@ -6,6 +6,7 @@
   --font-size-large: 2rem;
   --font-size-xlarge: 5rem;
   --holberton-red: #ff6565;
+  --purple-smile: #C271FF;
   --text-color-white: #ffffff;
 }
 
@@ -45,7 +46,7 @@ img.smile-school-logo {
 }
 
 button.btn {
-  background-color: #c271ff;
+  background-color: var(--purple-smile);
   border: none;
   border-radius: 22px;
   margin: 1.5rem auto;
@@ -59,9 +60,13 @@ button.btn {
 }
 
 .learn-text {
-  color: #c271ff;
+  color: var(--purple-smile);
 }
 
 img.circle-thumb {
   width: 9rem;
+}
+
+.carousel{
+	background-color: var(--purple-smile);
 }
