@@ -1,0 +1,61 @@
+/* Variables 
+	==================== */
+:root {
+	--font-size-small: 0.9rem;
+  --font-size-medium: 1rem;
+  --font-size-large: 2rem;
+  --font-size-xlarge: 4rem;
+  --holberton-red: #ff6565;
+  --text-color-white: #ffffff;
+}
+
+body{
+	font-family: Source Sans Pro;
+}
+
+/* Header 
+	==================== */
+
+.jumbotron {
+  background-image: url("./images/pic_1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+}
+
+h1.hero-title {
+  color: var(--text-color-white);
+  font-size: var(--font-size-xlarge);
+  font-weight: 700;
+}
+
+img.smile-school-logo {
+  height: 2rem;
+}
+
+.hero-title::after {
+  content: "SMILES GRIN LAUGH";
+  display: block;
+  font-size: var(--font-size-small);
+  word-spacing: 1.5rem;
+}
+
+button.btn{
+	background-color: #C271FF;
+	border: none;
+	border-radius: 22px;
+	margin: 2rem auto;
+	opacity: 0.9;
+	filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
+	font-size: var(--font-size-small);
+	padding: .5rem 1.5rem;
+	font-style: normal;
+	font-weight: 600;
+	text-align: center;
+}
+
+
+.learn-text{
+color:  #C271FF;
+}
