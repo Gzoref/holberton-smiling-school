@@ -6,7 +6,7 @@
   --font-size-large: 2rem;
   --font-size-xlarge: 5rem;
   --holberton-red: #ff6565;
-  --purple-smile: #C271FF;
+  --purple-smile: #c271ff;
   --text-color-white: #ffffff;
 }
 
@@ -67,23 +67,52 @@ img.circle-thumb {
   width: 9rem;
 }
 
-.carousel{
-	background-color: var(--purple-smile);
-	padding-left: 4rem;
+.carousel {
+  padding-left: 4rem;
 }
 
-
-.carousel-control-prev{
-	background-image: url("./images/arrow_white_left.png");
-	background-repeat: no-repeat;
-	background-size: 2rem;
-	margin: 2rem 1rem;
+.carousel-control-prev {
+  background-image: url("./images/arrow_white_left.png");
+  background-repeat: no-repeat;
+  background-size: 2rem;
+  margin: 2rem 1rem;
 }
 
-.carousel-control-next{
-	background-image: url("./images/arrow_white_right.png");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 2rem;
-	margin: 2rem 1rem;
+.carousel-control-next {
+  background-image: url("./images/arrow_white_right.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 2rem;
+  margin: 2rem 1rem;
+}
+
+img.thumbnail-1 {
+  width: 14rem;
+  
+}
+
+.video-prev {
+  background-image: url("./images/arrow_black_left.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 3rem;
+  margin: 2rem -6rem;
+}
+
+.video-next {
+  background-image: url("./images/arrow_black_right.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 3rem;
+  margin: 2rem -8em;
+}
+
+img.small-img{
+	width: 3.5rem;
+	height: 3.5rem;
+}
+
+img.play-btn{
+	height: 3.5rem;
+	margin:2.4rem 4.5rem;
 }
