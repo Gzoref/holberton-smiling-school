@@ -8,6 +8,7 @@
   --holberton-red: #ff6565;
   --purple-smile: #c271ff;
   --text-color-white: #ffffff;
+  --blue-background-color: #071629;
 }
 
 body {
@@ -61,8 +62,9 @@ button.btn {
   text-align: center;
 }
 
-.learn-text {
+.purple-text {
   color: var(--purple-smile);
+  font-weight: 900;
 }
 
 img.circle-thumb {
@@ -108,13 +110,17 @@ img.thumbnail-1 {
   margin: 2rem -8em;
 }
 
-img.small-img{
+img.small-img {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+img.play-btn {
+  height: 3.5rem;
+  margin: 2.4rem 4.5rem;
+}
+
+
+img.smile-logo{
 	width: 3.5rem;
-	height: 3.5rem;
 }
-
-img.play-btn{
-	height: 3.5rem;
-	margin:2.4rem 4.5rem;
-}
-
