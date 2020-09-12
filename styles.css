@@ -20,8 +20,16 @@ body {
 /* Header 
 	==================== */
 
-.jumbotron {
+.homepage-hero {
   background-image: url("./images/pic_1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+}
+
+.pricing-hero {
+  background-image: url("./images/pic_2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -119,7 +127,6 @@ img.play-btn {
   margin: 2.4rem 4.5rem;
 }
 
-
 img.smile-logo{
 	width: 3.5rem;
 }
@@ -127,3 +134,4 @@ img.smile-logo{
 footer{
 	position: absolute;
 }
+
