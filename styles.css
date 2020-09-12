@@ -48,7 +48,7 @@ img.smile-school-logo {
   height: 2rem;
 }
 
-.hero-title::after {
+.subtitles::after {
   content: "SMILES GRIN LAUGH";
   display: block;
   font-size: var(--font-size-small);
