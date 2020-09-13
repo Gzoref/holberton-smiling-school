@@ -22,19 +22,17 @@ body {
 
 .homepage-hero {
   background-image: url("./images/pic_1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  width: 100%;
+}
 
+
+body {
+    background-color: #071629;
+    background-size: 100%, auto;
+    background-repeat: no-repeat;
 }
 
 .pricing-hero {
   background-image: url("./images/pic_2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  width: 100%;
 }
 
 h1.hero-title {
