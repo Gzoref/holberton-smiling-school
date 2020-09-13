@@ -13,22 +13,20 @@
 
 body {
   font-family: Source Sans Pro;
-  background-size: 50% 0;
-
 }
 
 /* Header 
 	==================== */
 
-.homepage-hero {
-  background-image: url("./images/pic_1.jpg");
+body {
+  background-color: #071629;
+  background-size: 100%, auto;
+  background-repeat: no-repeat;
+
 }
 
-
-body {
-    background-color: #071629;
-    background-size: 100%, auto;
-    background-repeat: no-repeat;
+.homepage-hero {
+  background-image: url("./images/pic_1.jpg");
 }
 
 .pricing-hero {
@@ -126,11 +124,14 @@ img.play-btn {
   margin: 2.4rem 4.5rem;
 }
 
-img.smile-logo{
-	width: 3.5rem;
+img.smile-logo {
+  width: 3.5rem;
 }
 
-footer{
-	position: absolute;
+.checkmark {
+  fill: green;
 }
 
+footer {
+  position: absolute;
+}
