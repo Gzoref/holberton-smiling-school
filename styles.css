@@ -20,7 +20,7 @@ body {
 
 body {
   background-color: #071629;
-  background-size: 100%, auto;
+  background-size: 100% auto;
   background-repeat: no-repeat;
 
 }
@@ -33,12 +33,7 @@ body {
   background-image: url("./images/pic_2.jpg");
 }
 
-h1.hero-title {
-  color: var(--text-color-white);
-  font-size: var(--font-size-xlarge);
-  font-weight: bold;
-  word-spacing: 1.5rem;
-}
+
 
 img.smile-school-logo {
   height: 2rem;
@@ -50,6 +45,13 @@ img.smile-school-logo {
   font-size: var(--font-size-small);
   word-spacing: 2.5rem;
   text-align: center;
+}
+
+.fine-print-1::after{
+	content: "$1.20/month";
+	display: block;
+	font-size: var(--font-size-small);
+
 }
 
 button.btn {
@@ -135,3 +137,5 @@ img.smile-logo {
 footer {
   position: absolute;
 }
+
+
