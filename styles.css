@@ -22,7 +22,6 @@ body {
   background-color: #071629;
   background-size: 100% auto;
   background-repeat: no-repeat;
-
 }
 
 .homepage-hero {
@@ -33,7 +32,9 @@ body {
   background-image: url("./images/pic_2.jpg");
 }
 
-
+.courses-hero {
+  background-image: url("./images/pic_3.jpg");
+}
 
 img.smile-school-logo {
   height: 2rem;
@@ -47,11 +48,14 @@ img.smile-school-logo {
   text-align: center;
 }
 
-.fine-print-1::after{
-	content: "$1.20/month";
-	display: block;
-	font-size: var(--font-size-small);
+.fine-print-1::after {
+  content: "$1.20/month";
+  display: block;
+  font-size: var(--font-size-small);
+}
 
+.course-title{
+	font-family: Coiny;
 }
 
 button.btn {
@@ -138,5 +142,3 @@ img.smile-logo {
 footer {
   position: absolute;
 }
-
-
