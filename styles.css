@@ -79,7 +79,7 @@ button.btn {
 }
 
 img.circle-thumb {
-  width: 9rem;
+  width: 8rem;
 }
 
 .carousel {
@@ -151,90 +151,3 @@ footer {
 	font-size: 2rem;
 }
 
-#toggle-menu {
-	display: none;
-  }
-  
-  @media (max-width: 480px) {
-	header {
-	  background-position: 45% 50%;
-	}
-  
-	header .container nav {
-	  flex-direction: column;
-	  justify-content: center;
-	  align-items: center;
-	}
-  
-	.header-logo {
-	  width: 50%;
-	}
-  
-	.header-nav {
-	  display: none;
-	  width: 100%;
-	  flex-direction: column;
-	  text-align: center;
-	  margin: 1rem;
-	  font-weight: bold;
-	}
-  
-	.header-nav .nav-link {
-	  width: 100%;
-	  margin: 0.5rem auto;
-	  line-height: 2;
-	}
-  
-	#hamburger-btn {
-	  background: white;
-	  height: 2px;
-	  width: 0.8rem;
-	  position: absolute;
-	  left: 1rem;
-	  top: 18px;
-	  display: block;
-	}
-  
-	#hamburger-btn::before {
-	  content: "";
-	  background: #ffffff;
-	  height: 2px;
-	  width: 20px;
-	  position: relative;
-	  top: -0.4rem;
-	  display: block;
-	  transition: all 0.2s ease;
-	}
-  
-	#hamburger-btn::after {
-	  content: "";
-	  background: #ffffff;
-	  height: 2px;
-	  width: 18px;
-	  position: relative;
-	  top: 0.3rem;
-	  display: block;
-	  transition: all 0.2s ease;
-	}
-  
-	#toggle-menu:checked ~ .header-nav {
-	  display: block;
-	}
-  
-	#toggle-menu:checked ~ #hamburger-btn {
-	  background: transparent;
-	}
-  
-	#toggle-menu:checked ~ #hamburger-btn::before {
-	  transform: rotate(45deg);
-	  top: 0.19rem;
-	}
-  
-	#toggle-menu:checked ~ #hamburger-btn::after {
-	  width: 1.34rem;
-	  transform: rotate(-45deg);
-	  top: 1px;
-	}
-  
-
-  }
