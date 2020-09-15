@@ -36,6 +36,9 @@ img.smile-school-logo {
 
  #courses .courses, #pricing .pricing{
 	color: #c271ff !important;
+	text-decoration: underline !important;
+	text-decoration-color: #ffffff !important;
+	text-decoration-thickness: 3px !important;
 	}
 
 .subtitles::after {
