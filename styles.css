@@ -142,3 +142,10 @@ img.smile-logo {
 footer {
   position: absolute;
 }
+
+.holberton_school-icon-ic_facebook, .holberton_school-icon-ic_twitter, .holberton_school-icon-ic_instagram
+{
+	color: #ffffff;
+	height: 2rem;
+	font-size: 2rem;
+}
