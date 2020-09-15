@@ -34,9 +34,9 @@ img.smile-school-logo {
   height: 2rem;
 }
 
-.nav-item:hover {
-	color: var(--purple-smile);
-  }
+ #courses .courses, #pricing .pricing{
+	color: #c271ff !important;
+	}
 
 .subtitles::after {
   content: "SMILES GRIN LAUGH";
