@@ -168,18 +168,18 @@ footer {
     flex-direction: column;
     text-align: center;
     margin: 1rem;
-	font-weight: bold;
-	cursor: pointer;
-}
+    font-weight: bold;
+    cursor: pointer;
+  }
 
-.header-nav .nav-link {
-	width: 100%;
+  .header-nav .nav-link {
+    width: 100%;
     margin: 0.5rem auto;
     line-height: 1;
-}
+  }
 
-#hamburger-btn {
-	cursor: pointer;
+  #hamburger-btn {
+    cursor: pointer;
     background: white;
     height: 2px;
     width: 0.8rem;
@@ -187,10 +187,10 @@ footer {
     left: 1rem;
     top: 20px;
     display: block;
-}
+  }
 
-#hamburger-btn::before {
-	content: "";
+  #hamburger-btn::before {
+    content: "";
     background: #ffffff;
     height: 2px;
     width: 20px;
@@ -198,7 +198,7 @@ footer {
     top: -0.4rem;
     display: block;
     transition: all 0.2s ease;
-	cursor: pointer;
+    cursor: pointer;
   }
 
   #hamburger-btn::after {
